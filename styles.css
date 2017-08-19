@@ -1,0 +1,10 @@
+#particles-js{
+  background: firebrick;
+  height: 100%
+}
+html{
+  min-height: 100%;
+}
+body{
+  height: 100%;
+}
