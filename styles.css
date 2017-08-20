@@ -12,7 +12,7 @@ html>body .content {
   height:auto;
 }
 #particles-js{
-  background: #DB4D6D;
+  background: #000;
   height: 100%
 }
 #login{
@@ -35,24 +35,24 @@ html>body .content {
 
 #login input[type='submit']{
   float: right;
-  border: 1px solid #DB4D6D;
+  border: 1px solid #000;
   border-radius: 2px;
   background: #fff;
-  color:#DB4D6D;
+  color:#000;
 }
 
 #login input[type='submit']:focus{
   float: right;
-  border: 1px solid #DB4D6D;
+  border: 1px solid #000;
   border-radius: 2px;
   background: #fff;
-  color:#DB4D6D;
+  color:#000;
 }
 
 #login input[type='submit']:hover{
   float: right;
-  border: 1px solid #DB4D6D;
+  border: 1px solid #000;
   border-radius: 2px;
-  background: #DB4D6D;
+  background: #000;
   color:#fff;
 }
