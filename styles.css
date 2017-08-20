@@ -1,10 +1,53 @@
-#particles-js{
-  background: firebrick;
-  height: 100%
-}
+
 html{
   min-height: 100%;
 }
 body{
   height: 100%;
+  color: #333;
+  margin: 0;
+}
+#particles-js{
+  background: #DB4D6D;
+  height: 100%
+}
+#login{
+  background: #fff;
+  opacity: 0.9;
+  padding: 2em;
+  border: #ccc 2px solid;
+  position: absolute;
+  top:20%;
+  left:40%;
+}
+
+#login input[type='text'], #login input[type='password']{
+  padding-left:7px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+#login input[type='submit']{
+  float: right;
+  border: 1px solid #DB4D6D;
+  border-radius: 2px;
+  background: #fff;
+  color:#DB4D6D;
+}
+
+#login input[type='submit']:focus{
+  float: right;
+  border: 1px solid #DB4D6D;
+  border-radius: 2px;
+  background: #fff;
+  color:#DB4D6D;
+}
+
+#login input[type='submit']:hover{
+  float: right;
+  border: 1px solid #DB4D6D;
+  border-radius: 2px;
+  background: #DB4D6D;
+  color:#fff;
 }
